@@ -5,16 +5,16 @@ Programming Project for Exam preparation
 In this task, you will implement the scheduling algorithm for the following processes (the highest (best) priority is the largest integer number, P1 has highest priority. 
 The scheduling algorithm is preemptive, priority-based with round-robin scheduling for processes having the same prority using time quantum q = 10.
 
-Process Table (stored in a data file)
+`Process Table`
 
-Process		Priority	   Burst	 Arrival
--------		--------	   -----	 -------
-P1		    8		     15		    0
-P2		    3		     20		    0
-P3		    4		     20		    20
-P4		    4		     20		    25
-P5		    5		     5		    45
-P6		    5		     15		    55
+Process	|	Priority	|   Burst	| Arrival
+-------	|	--------	|   -----	| -------
+P1	|	    8		|     15	|	0
+P2	|	    3		|     20	|	0
+P3	|	    4		|     20	|	20
+P4	|	    4		|     20	|	25
+P5	|	    5		|     5		|    	45
+P6	|	    5		|     15	|	55
 
 Program will do the following steps for the following input scenario:
 
