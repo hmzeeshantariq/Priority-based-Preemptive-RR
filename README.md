@@ -7,8 +7,8 @@ The scheduling algorithm is preemptive, priority-based with round-robin scheduli
 
 Process Table (stored in a data file)
 
-Process	Priority	Burst		Arrival
--------	--------	-----		-------
+Process		Priority	   Burst	 Arrival
+-------		--------	   -----	 -------
 P1		    8		     15		    0
 P2		    3		     20		    0
 P3		    4		     20		    20
